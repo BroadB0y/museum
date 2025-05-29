@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музей искусств - Виртуальный тур</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-transition"></div>
+    <header>
+        <nav>
+            <div class="logo">Музей искусств</div>
+            <ul>
+                <li><a href="index.html" data-page="index">Главная</a></li>
+                <li><a href="tour.html" class="active" data-page="tour">Виртуальный тур</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="virtual-tour">
+            <h1>Виртуальный тур по музею</h1>
+            <div class="tour-container">
+                <div class="tour-view">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5" alt="Вид музея" id="tour-image-1" class="active">
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5" alt="Вид музея" id="tour-image-2">
+                    </div>
+                    <div class="tour-controls">
+                        <button id="prev-btn">←</button>
+                        <button id="next-btn">→</button>
+                    </div>
+                </div>
+                <div class="tour-info">
+                    <h2>Информация о зале</h2>
+                    <p id="room-description">Главный зал музея, где представлены основные экспозиции.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Музей искусств. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
